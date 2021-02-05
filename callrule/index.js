@@ -11,7 +11,7 @@ const
 
 async function main() {
             const
-                token = await client.owner.getToken('usabapconsulting@gmail.com', '%yj2oVSJ'),
+                token = await client.owner.getToken('USERNAME', 'PASSWORD'),
                 req = request.defaults({
 		 headers: {	
                     Authorization: 'Bearer ' + token.accessToken
